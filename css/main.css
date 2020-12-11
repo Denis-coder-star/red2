@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*Обнуления*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  background: #f50001;
+  background: linear-gradient(180deg, #F50001 0%, #490000 100%);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  padding: 17px 0;
+}
+.menu__link {
+  font-size: 14px;
+  color: white;
+}
+.menu__item {
+  border-radius: 5px;
+  width: 92px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  transition: 0.5s linear;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.menu__item:first-child {
+  margin-left: 0;
+}
+.menu__item:hover {
+  background: #242424;
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.67);
+}
+.menu {
+  display: flex;
+}
+.data-menu a {
+  font-size: 14px;
+  color: white;
+  margin-left: 24px;
+}
+.data-menu a:first {
+  margin-left: 0;
+}
+.russia {
+  margin-right: 120px;
+}
+.header-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-wrapper {
+  background: #F7F7F7;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 23px 21px 31px 26px;
+  margin-top: 30px;
+}
+.visible-block,
+.visible-service {
+  background: #FFFFFF;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 11px 17px 11px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 17px;
+}
+.visible-block p,
+.visible-service p {
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+.down-block h3,
+.service-block h3,
+.description-block h3,
+.link-block h3,
+.quantity-title h3,
+.price-block h3 {
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+}
+.service-block {
+  margin-top: 13px;
+}
+.drop-down,
+.service-down {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 11px 17px 11px 16px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.drop-down:hover {
+  background: #1390CE;
+}
+.service-down:hover {
+  background: #1390CE;
+}
+.drop-down:hover p {
+  color: white;
+}
+.service-down:hover p {
+  color: white;
+}
+.drop-down p,
+.service-down p {
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.drop-down-block,
+.drop-down-service {
+  display: none;
+}
+.description-block p {
+  font-size: 15px;
+  color: black;
+  padding-left: 17px;
+  margin-top: 3px;
+}
+.description-block p:nth-child(2) {
+  margin-top: 24px;
+}
+.description-block {
+  margin-top: 22px;
+}
+.link-visible,
+.quantity-visible {
+  background: #FFFFFF;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 11px 17px 11px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: 0.3s linear;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+.link-visible:hover {
+  border: 2px solid #1390CE;
+}
+.link-visible p,
+.quantity-visible p {
+  font-size: 15px;
+  color: black;
+}
+.link-block {
+  margin-top: 25px;
+}
+.quantity-block {
+  margin-top: 12px;
+}
+.quantity-title p {
+  font-size: 13px;
+  color: black;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.quantity-title {
+  display: flex;
+  align-items: center;
+}
+.price-block {
+  margin-top: 18px;
+}
+.price-block span {
+  font-size: 31px;
+  font-weight: bold;
+  color: #1C8D00;
+}
+.price-block h3 {
+  margin-bottom: 17px;
+}
+.price-btn {
+  font-size: 17px;
+  color: white;
+  display: block;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #1C8D00;
+  border-radius: 5px;
+  transition: 0.3s linear;
+  margin-top: 28px;
+}
+.price-btn:hover {
+  background: linear-gradient(180deg, #6FA849 0%, #528B35 100%), #656565;
+}
+.checkbox__item {
+  display: flex;
+  align-items: center;
+}
+.checkbox__item p {
+  font-size: 13px;
+  font-weight: 300;
+  color: black;
+  margin-left: 12px;
+}
+.checkbox-body {
+  display: flex;
+  margin-top: 32px;
+}
+.checkbox-second {
+  margin-left: 10px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}

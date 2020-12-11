@@ -1,0 +1,21 @@
+.drop-down-block-active {
+	display: block;
+}
+
+.strelka-active {
+	transform: rotate(180deg);
+}
+
+.visible-block-active {
+	box-shadow: none;
+	border-radius: 5px 5px 0 0;
+}
+
+.drop-down-active {
+	border-radius: 0;
+}
+
+.down-last-active {
+	border-radius: 0 0 5px 5px;
+}
+
